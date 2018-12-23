@@ -1,4 +1,4 @@
-##Funkcionalni zahtjevi i dijagrami aktivnosti
+## Funkcionalni zahtjevi i dijagrami aktivnosti
 
 - Branka - Registrovani korisnici
 - Miloš - Neregistrovani korisnici
