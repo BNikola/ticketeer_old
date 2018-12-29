@@ -37,6 +37,7 @@
 |                        | **6.** Sistem ažurira kreirani odjeljak |
 |                        | **7.** Administrator ponavlja prethodne korake za svaki odjeljak |
 |                        | **8.** Nakon podešavanja svih odjeljaka sistem prikazuje šemu sale |
+|                        | **9.** Sistem obavještava administratora o uspješnom ažuriranju |
 | Alternative            | -/- |
 
 
@@ -56,6 +57,7 @@
 |                        | **4.** Sistem prikazuje događaj |
 |                        | **5.** Administrator dodaje događaj u trenutni repertoar |
 |                        | **6.** Sistem ažurira trenutni repertoar |
+|                        | **7.** Sistem obavještava administratora o uspješnom ažuriranju |
 | Alternative            | **5a.** U slučaju da događaj postoji u repertoaru sistem šalje upozorenje korisniku |
 
 ## 3.4 Ažuriranje događaja
@@ -65,6 +67,7 @@
 | Sporedni učesnik       | Sistem |
 | Kratak opis            | Administrator može da ažurira postojeći događaj, to jest da promijeni određene detalje već postojećeg događaja |
 | Preduslovi             | Administrator je prijavljen na Sistem |
+|                        | Administrator izabrao događaj za ažuriranje |
 | Postuslovi             | Događaj je ažuriran |
 | Koraci (osnovni tok)   | **1.** Sistem prikazuje odabrani događaj |
 |                        | **2.** Administrator bira koje detalje će da modifikuje |
@@ -73,6 +76,7 @@
 |                        | **5.** Sistem ažurira izmjenjene podatke |
 |                        | **6.** Administrator dodaje ažurirani događaj u trenutni repertoar |
 |                        | **7.** Sistem ažurira trenutni repertoar |
+|                        | **8.** Sistem obavještava administratora o uspješnom ažuriranju |
 | Alternative            | -/- |
 
 
@@ -86,8 +90,9 @@
 | Postuslovi             | Repertoar je ažuriran |
 | Koraci (osnovni tok)   | **1.** Administrator bira opciju za ažuriranje repertoara |
 |                        | **2.** Sistem prikazuje događaje u repertoaru i moguće opcije |
-|                        | **3.** Administrator ažurira repertoar |
+|                        | **3.** Administrator vrši izmjene repertoara |
 |                        | **4.** Sistem ažurira repertoar |
+|                        | **5.** Sistem obavještava administratora o uspješnom ažuriranju |
 | Alternative            | -/- |
 
 
@@ -104,7 +109,65 @@
 |                        | **3.** Administrator unosi odgovarajuću vrijednost kredita |
 |                        | **4.** Sistem vrši provjeru unešenih podataka |
 |                        | **5.** Sistem ažurira vrijednost kredita |
+|                        | **6.** Sistem obavještava administratora o uspješnom ažuriranju |
 | Alternative            | -/- |
+
+
+## 3.6 Ažuriranje korisničkog naloga
+| Naziv slučaja upotrebe | Ažuriranje korisničkih naloga |
+| ---------------------- | --------------------- |
+| Glavni učesnik         | Administrator         |
+| Sporedni učesnik       | Sistem |
+| Kratak opis            | Administrator može da ažurira korisničke naloge i omogući određene funkcionalnosti za korisnike |
+| Preduslovi             | Administrator je prijavljen na Sistem |
+|                        | Korisnički nalog je već kreiran |
+| Postuslovi             | Funkcionalnosti korisnika su ažurirane |
+| Koraci (osnovni tok)   | **1.** Administrator šalje zahtjev za pregled korisnika |
+|                        | **2.** Sistem prikazuje listu registrovanih korisnika |
+|                        | **3.** Administrator bira korisnički nalog za modifikovanje |
+|                        | **4.** Administrator modifikuje korisnički nalog |
+|                        | **5.** Sistem provjerava validnost unešenih podataka |
+|                        | **6.** Sistem ažurira korisničke podatke |
+|                        | **7.** Sistem obavještava administratora o uspješnom ažuriranju |
+| Alternative            | -/- |
+
+
+## 3.7 Brisanje korisničkog naloga
+| Naziv slučaja upotrebe | Brisanje korisničkog naloga |
+| ---------------------- | --------------------- |
+| Glavni učesnik         | Administrator         |
+| Sporedni učesnik       | Sistem |
+| Kratak opis            | Administrator može da obriše korisnički nalog |
+| Preduslovi             | Administrator je prijavljen na Sistem |
+|                        | Korisnički nalog je već kreiran |
+| Postuslovi             | Korisnički nalog je obrisan |
+| Koraci (osnovni tok)   | **1.** Administrator šalje zahtjev za pregled korisnika |
+|                        | **2.** Sistem prikazuje korisničke naloge |
+|                        | **3.** Administrator bira korisnički nalog koji želi da obriše |
+|                        | **4.** Administrator šalje zahtjev za brisanje |
+|                        | **5.** Sistem provjerava da li je nalog aktivan |
+|                        | **6.** Administrator potvrđuje brisanje korisničkog naloga |
+|                        | **7.** Sistem briše korisnički nalog |
+|                        | **8.** Sistem briše nalog iz liste korisničkih naloga |
+|                        | **9.** Sistem obavještava administratora o uspješnom brisanju |
+| Alternative            | -/- |
+
+
+## 3.8 Kreiranje korisničkih rankova
+| Naziv slučaja upotrebe | Kreiranje korisničkih rankova |
+| ---------------------- | --------------------- |
+| Glavni učesnik         | Administrator         |
+| Sporedni učesnik       | Sistem |
+| Kratak opis            | Administrator može da kreira rankove korisnika. U zavisnosti od ranka, korisnici će imati određene funkcionalnosti |
+| Preduslovi             | Administrator je prijavljen na Sistem |
+| Postuslovi             | Korisnički rankovi su kreirani |
+| Koraci (osnovni tok)   | **1.** Administrator bira opciju za kreiranje korisničkih rankova |
+|                        | **2.** Administrator bira broj rankova i dodjeljuje im nazive |
+|                        | **3.** Sistem provjerava validnost unešenih vrijednosti |
+|                        | **4.** Sistem se ažurira |
+|                        | **5.** Sistem obavještava administratora o uspješnom ažuriranju |
+| Alternative            | -/- |
+
 
 
 
