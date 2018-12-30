@@ -85,7 +85,7 @@
 | ---------------------- | --------------------- |
 | Glavni učesnik         | Administrator         |
 | Sporedni učesnik       | Sistem |
-| Kratak opis | Administrator može da ažurira repertoar i po potrebi izbriše, doda ili izmjeni neki od događaja |
+| Kratak opis            | Administrator može da ažurira repertoar i po potrebi izbriše, doda ili izmjeni neki od događaja |
 | Preduslovi             | Administrator je prijavljen na Sistem |
 | Postuslovi             | Repertoar je ažuriran |
 | Koraci (osnovni tok)   | **1.** Administrator bira opciju za ažuriranje repertoara |
