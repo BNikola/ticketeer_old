@@ -1,0 +1,3 @@
+- zahtjevi kao objekti ( da li moze u bazu objekat)
+- shema sala i liste sale
+
