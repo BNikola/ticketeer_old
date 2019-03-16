@@ -290,7 +290,7 @@
 													"top": 551,
 													"width": 176.998046875,
 													"height": 13,
-													"text": "Štampanje karte"
+													"text": "Obavještenje kod validan"
 												},
 												{
 													"_type": "LabelView",
@@ -2151,7 +2151,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFpT1zo/Ro47Ts="
 									},
-									"name": "Štampanje karte"
+									"name": "Obavještenje kod validan"
 								},
 								{
 									"_type": "UMLDataStoreNode",

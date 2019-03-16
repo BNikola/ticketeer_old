@@ -2498,7 +2498,7 @@
 												"$ref": "AAAAAAFpcM0PBTV1D7U="
 											},
 											"edgePosition": 1,
-											"text": "ažuriranje podataka"
+											"text": "ažurirani podaci"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2701,7 +2701,7 @@
 												"$ref": "AAAAAAFpcRiuHr7GOuI="
 											},
 											"edgePosition": 1,
-											"text": "ažuriranje podataka"
+											"text": "ažurirani podaci"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3054,7 +3054,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFn5t+CKzIJ8to="
 							},
-							"name": "ažuriranje podataka",
+							"name": "ažurirani podaci",
 							"source": {
 								"$ref": "AAAAAAFpWYpnz92WSPg="
 							},
@@ -3081,7 +3081,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFn5t+CKzIJ8to="
 							},
-							"name": "ažuriranje podataka",
+							"name": "ažurirani podaci",
 							"source": {
 								"$ref": "AAAAAAFpcMaT8DSu+Ko="
 							},
