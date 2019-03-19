@@ -1,4 +1,4 @@
-## Korisnici
+﻿## Korisnici
 - Privilegovan može da bira mjesto i kupuje putem kredita
 - obični moze da rezerviše - radnik na blagajni bira mjesto i salje se potvrda o rezervaciji
 - neregistrovani može da gleda repertoar i ništa više
@@ -39,3 +39,15 @@
     - ako nema dovoljno kredita - vraca se na validaciju rezervacije
     - smanjenje broja kredita
 
+## Terminologija
+- Datastores
+    - Evidencija korisnickih naloga
+    - Evidencija događaja
+    - Repertoar
+    - Evidencija zauzetosti sjedišta
+    - Evidencija zahtjeva za rezervaciju
+    - Evidencija rezervacija
+
+- Objekti
+    - Zahtjev (novi) na početku toka i Poruke (nova) na kraju toka
+    - Slanje obavještenja - obavještenje kao objekat - prijem obavještenja
