@@ -1354,9 +1354,9 @@
 														"$ref": "AAAAAAFpcvw2y23RP08="
 													},
 													"font": "Arial;13;0",
-													"left": 501,
+													"left": 461,
 													"top": 445,
-													"width": 135.82080078125,
+													"width": 182.0634765625,
 													"height": 13,
 													"text": "«datastore»"
 												},
@@ -1367,11 +1367,11 @@
 														"$ref": "AAAAAAFpcvw2y23RP08="
 													},
 													"font": "Arial;13;1",
-													"left": 501,
+													"left": 461,
 													"top": 460,
-													"width": 135.82080078125,
+													"width": 182.0634765625,
 													"height": 13,
-													"text": "Registrovani korisnici"
+													"text": "Evidencija korisničkih naloga"
 												},
 												{
 													"_type": "LabelView",
@@ -1381,7 +1381,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -120,
+													"left": -200,
 													"top": -224,
 													"width": 86.6708984375,
 													"height": 13,
@@ -1395,16 +1395,16 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -120,
+													"left": -200,
 													"top": -224,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 496,
+											"left": 456,
 											"top": 440,
-											"width": 145.82080078125,
+											"width": 192.0634765625,
 											"height": 38,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAFpcvw2y23S3n4="
@@ -1425,9 +1425,9 @@
 									},
 									"font": "Arial;13;0",
 									"containerChangeable": true,
-									"left": 496,
+									"left": 456,
 									"top": 440,
-									"width": 145.82080078125,
+									"width": 192.0634765625,
 									"height": 38,
 									"nameCompartment": {
 										"$ref": "AAAAAAFpcvw2y23RP08="
@@ -1623,7 +1623,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFpcudyrGyPWYY="
 									},
-									"name": "Registrovani korisnici",
+									"name": "Evidencija korisničkih naloga",
 									"ordering": "FIFO"
 								},
 								{

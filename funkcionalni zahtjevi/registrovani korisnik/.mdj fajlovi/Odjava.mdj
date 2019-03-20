@@ -145,7 +145,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -256,
+													"left": -240,
 													"height": 13
 												},
 												{
@@ -155,11 +155,12 @@
 														"$ref": "AAAAAAFn7BaWDl9i8PY="
 													},
 													"font": "Arial;13;1",
-													"left": 133,
+													"left": 141,
 													"top": 151,
-													"width": 178.46435546875,
-													"height": 13,
-													"text": "Zahtjev za odjavu sa sistema"
+													"width": 151,
+													"height": 26,
+													"text": "Biranje opcije za odjavu sa sistema",
+													"wordWrap": true
 												},
 												{
 													"_type": "LabelView",
@@ -169,7 +170,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -256,
+													"left": -240,
 													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
@@ -182,16 +183,16 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -256,
+													"left": -240,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 128,
+											"left": 136,
 											"top": 144,
-											"width": 188.46435546875,
-											"height": 25,
+											"width": 161,
+											"height": 38,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAFn7BaWD19jyBw="
 											},
@@ -208,13 +209,14 @@
 									],
 									"font": "Arial;13;0",
 									"containerChangeable": true,
-									"left": 128,
+									"left": 136,
 									"top": 144,
-									"width": 188.46435546875,
-									"height": 41,
+									"width": 161,
+									"height": 54,
 									"nameCompartment": {
 										"$ref": "AAAAAAFn7BaWDl9i8PY="
-									}
+									},
+									"wordWrap": true
 								},
 								{
 									"_type": "UMLActionView",
@@ -432,7 +434,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 353,
+											"left": 344,
 											"top": 143,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -453,7 +455,7 @@
 											},
 											"visible": null,
 											"font": "Arial;13;0",
-											"left": 353,
+											"left": 344,
 											"top": 128,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -474,7 +476,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 353,
+											"left": 344,
 											"top": 173,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -492,7 +494,7 @@
 									"tail": {
 										"$ref": "AAAAAAFn7BaWDV9hI0Y="
 									},
-									"points": "315:164;392:164",
+									"points": "296:164;392:164",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAFn7BnTO1/tx8w="
@@ -546,8 +548,8 @@
 													"left": 405,
 													"top": 359,
 													"width": 143,
-													"height": 13,
-													"text": "Završavanje sesije",
+													"height": 26,
+													"text": "Odjavljivanje korisnika sa sistema",
 													"wordWrap": true
 												},
 												{
@@ -582,7 +584,7 @@
 											"left": 400,
 											"top": 352,
 											"width": 153,
-											"height": 25,
+											"height": 38,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAFn7BqVv2AUCIY="
 											},
@@ -602,7 +604,7 @@
 									"left": 400,
 									"top": 352,
 									"width": 153,
-									"height": 41,
+									"height": 54,
 									"nameCompartment": {
 										"$ref": "AAAAAAFn7BqVvmAToOI="
 									},
@@ -1066,7 +1068,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 494,
-											"top": 417,
+											"top": 423,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
@@ -1087,7 +1089,7 @@
 											"visible": null,
 											"font": "Arial;13;0",
 											"left": 509,
-											"top": 417,
+											"top": 423,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 30,
@@ -1108,7 +1110,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 465,
-											"top": 418,
+											"top": 424,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 15,
@@ -1125,7 +1127,7 @@
 									"tail": {
 										"$ref": "AAAAAAFn7BqVvmASovY="
 									},
-									"points": "480:392;480:456",
+									"points": "480:405;480:456",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAFpcmSftdS+LQU="
@@ -1257,7 +1259,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFn7BWBy19AWkQ="
 							},
-							"name": "Zahtjev za odjavu sa sistema"
+							"name": "Biranje opcije za odjavu sa sistema"
 						},
 						{
 							"_type": "UMLAction",
@@ -1273,7 +1275,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFn7BWBy19AWkQ="
 							},
-							"name": "Završavanje sesije"
+							"name": "Odjavljivanje korisnika sa sistema"
 						},
 						{
 							"_type": "UMLMergeNode",
