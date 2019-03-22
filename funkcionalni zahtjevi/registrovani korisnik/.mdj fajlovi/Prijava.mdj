@@ -76,7 +76,7 @@
 									"left": 80,
 									"top": 32,
 									"width": 272,
-									"height": 705,
+									"height": 737,
 									"nameLabel": {
 										"$ref": "AAAAAAFn7BXPzV9I+D4="
 									}
@@ -118,7 +118,7 @@
 									"left": 352,
 									"top": 32,
 									"width": 297,
-									"height": 705,
+									"height": 737,
 									"nameLabel": {
 										"$ref": "AAAAAAFn7BX76F9Q1Hk="
 									}
@@ -1907,7 +1907,7 @@
 													"font": "Arial;13;0",
 													"left": -64,
 													"top": -16,
-													"width": 86.6708984375,
+													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
 												},
