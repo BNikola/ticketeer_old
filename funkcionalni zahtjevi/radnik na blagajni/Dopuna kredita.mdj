@@ -3247,7 +3247,7 @@
 													"top": 903,
 													"width": 275.208984375,
 													"height": 13,
-													"text": "Unos novčanog iznosa u odgovarajuće polje"
+													"text": "Unos broja kredita u odgovarajuće polje"
 												},
 												{
 													"_type": "LabelView",
@@ -5085,7 +5085,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFn5wZIVsEYFqA="
 									},
-									"name": "Unos novčanog iznosa u odgovarajuće polje"
+									"name": "Unos broja kredita u odgovarajuće polje"
 								},
 								{
 									"_type": "UMLAction",
