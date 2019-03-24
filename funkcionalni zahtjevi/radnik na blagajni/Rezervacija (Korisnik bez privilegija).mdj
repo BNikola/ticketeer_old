@@ -2210,7 +2210,7 @@
 													"top": 567,
 													"width": 207,
 													"height": 13,
-													"text": "Odabir konkretne rezervacije"
+													"text": "Odabir konkretnog zahtjeva"
 												},
 												{
 													"_type": "LabelView",
@@ -4690,7 +4690,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFpWX6LNNtwl5E="
 									},
-									"name": "Odabir konkretne rezervacije"
+									"name": "Odabir konkretnog zahtjeva"
 								}
 							]
 						}
