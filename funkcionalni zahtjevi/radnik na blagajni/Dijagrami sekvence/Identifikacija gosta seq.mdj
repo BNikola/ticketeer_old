@@ -60,9 +60,9 @@
 											"font": "Arial;13;1",
 											"left": 285,
 											"top": 790,
-											"width": 67.90087890625,
+											"width": 165,
 											"height": 13,
-											"text": "Boundary1"
+											"text": "IdentifikacijaKorisnikaForm"
 										},
 										{
 											"_type": "LabelView",
@@ -91,7 +91,7 @@
 									"font": "Arial;13;0",
 									"left": 280,
 									"top": 783,
-									"width": 77.90087890625,
+									"width": 180.49169921875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFpu30VblXQp6E="
@@ -129,6 +129,72 @@
 									"model": {
 										"$ref": "AAAAAAFpu30VbVXNUdA="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFpvxrdBzs3c04=",
+											"_parent": {
+												"$ref": "AAAAAAFpu30VblXV0zc="
+											},
+											"model": {
+												"$ref": "AAAAAAFpu3/ZLFaiCZg="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 53.8154296875,
+											"height": 13,
+											"text": "+prikaži()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFpvxrdCzs6PjU=",
+											"_parent": {
+												"$ref": "AAAAAAFpu30VblXV0zc="
+											},
+											"model": {
+												"$ref": "AAAAAAFpu4FvUlbwCE0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 58.87451171875,
+											"height": 13,
+											"text": "+provjeri()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFpvxrdCzs9i4A=",
+											"_parent": {
+												"$ref": "AAAAAAFpu30VblXV0zc="
+											},
+											"model": {
+												"$ref": "AAAAAAFpu6BM2FfV49Q="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 95.71630859375,
+											"height": 13,
+											"text": "+prikažiGrešku()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFpvxrdDDtAH0Y=",
+											"_parent": {
+												"$ref": "AAAAAAFpu30VblXV0zc="
+											},
+											"model": {
+												"$ref": "AAAAAAFpu6HuKVgJi64="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 129.6953125,
+											"height": 13,
+											"text": "+prikažiObavještenje()",
+											"horizontalAlignment": 0
+										}
+									],
 									"visible": false,
 									"font": "Arial;13;0",
 									"width": 10,
@@ -167,7 +233,7 @@
 							"containerChangeable": true,
 							"left": 280,
 							"top": 744,
-							"width": 77.90087890625,
+							"width": 175,
 							"height": 65,
 							"stereotypeDisplay": "icon",
 							"nameCompartment": {
@@ -216,7 +282,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"width": 45.53173828125,
+											"width": 46,
 											"height": 13,
 											"text": "«entity»"
 										},
@@ -229,9 +295,9 @@
 											"font": "Arial;13;1",
 											"left": 645,
 											"top": 806,
-											"width": 43.341796875,
+											"width": 76,
 											"height": 13,
-											"text": "Entity1"
+											"text": "Identifikacija"
 										},
 										{
 											"_type": "LabelView",
@@ -260,7 +326,7 @@
 									"font": "Arial;13;0",
 									"left": 640,
 									"top": 799,
-									"width": 53.341796875,
+									"width": 88.7490234375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFpu30ZxFX5Nf0="
@@ -298,6 +364,24 @@
 									"model": {
 										"$ref": "AAAAAAFpu30ZxFX2Wnk="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFpvxrdLTtDTYo=",
+											"_parent": {
+												"$ref": "AAAAAAFpu30ZxFX+MHQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFpu5a5C1dECnU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 99.34716796875,
+											"height": 13,
+											"text": "+izlistajPodatke()",
+											"horizontalAlignment": 0
+										}
+									],
 									"visible": false,
 									"font": "Arial;13;0",
 									"width": 10,
@@ -336,7 +420,7 @@
 							"containerChangeable": true,
 							"left": 640,
 							"top": 760,
-							"width": 53.341796875,
+							"width": 86,
 							"height": 65,
 							"stereotypeDisplay": "icon",
 							"nameCompartment": {
@@ -398,9 +482,9 @@
 											"font": "Arial;13;1",
 											"left": 629,
 											"top": 622,
-											"width": 53.44091796875,
+											"width": 176.76513671875,
 											"height": 13,
-											"text": "Control1"
+											"text": "IdentifikacijaKorisnikaControl"
 										},
 										{
 											"_type": "LabelView",
@@ -429,7 +513,7 @@
 									"font": "Arial;13;0",
 									"left": 624,
 									"top": 615,
-									"width": 63.44091796875,
+									"width": 194.20263671875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFpu30fz1YiN6g="
@@ -467,6 +551,40 @@
 									"model": {
 										"$ref": "AAAAAAFpu30fz1Yf3WU="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFpvxrdMTtGP/M=",
+											"_parent": {
+												"$ref": "AAAAAAFpu30fz1YnBSw="
+											},
+											"model": {
+												"$ref": "AAAAAAFpu4XwcVcIKT4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 62.50537109375,
+											"height": 13,
+											"text": "+pronadji()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFpvxrdMTtJr/w=",
+											"_parent": {
+												"$ref": "AAAAAAFpu30fz1YnBSw="
+											},
+											"model": {
+												"$ref": "AAAAAAFpu5fpWFd1CsA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 59.6171875,
+											"height": 13,
+											"text": "+uporedi()",
+											"horizontalAlignment": 0
+										}
+									],
 									"visible": false,
 									"font": "Arial;13;0",
 									"width": 10,
@@ -505,7 +623,7 @@
 							"containerChangeable": true,
 							"left": 624,
 							"top": 576,
-							"width": 63.44091796875,
+							"width": 186.76513671875,
 							"height": 65,
 							"stereotypeDisplay": "icon",
 							"nameCompartment": {
@@ -1386,7 +1504,7 @@
 													"left": 782,
 													"top": 224,
 													"width": 14,
-													"height": 393
+													"height": 353
 												}
 											],
 											"font": "Arial;13;0",
@@ -1452,9 +1570,9 @@
 															"font": "Arial;13;1",
 															"left": 869,
 															"top": 87,
-															"width": 104.01904296875,
+															"width": 144.52978515625,
 															"height": 13,
-															"text": ": Identifikacija"
+															"text": ": EvidencijaRezervacija"
 														},
 														{
 															"_type": "LabelView",
@@ -1488,7 +1606,7 @@
 													"font": "Arial;13;0",
 													"left": 864,
 													"top": 80,
-													"width": 114.01904296875,
+													"width": 154.52978515625,
 													"height": 25,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAFpu5Qq/1cRP+4="
@@ -1513,7 +1631,7 @@
 														"$ref": "AAAAAAFpu5Qq/1cOYi4="
 													},
 													"font": "Arial;13;0",
-													"left": 921,
+													"left": 941,
 													"top": 105,
 													"width": 1,
 													"height": 672
@@ -1523,7 +1641,7 @@
 											"font": "Arial;13;0",
 											"left": 864,
 											"top": 40,
-											"width": 114.01904296875,
+											"width": 154.52978515625,
 											"height": 737,
 											"stereotypeDisplay": "icon",
 											"nameCompartment": {
@@ -1555,7 +1673,7 @@
 													"font": "Arial;13;0",
 													"left": 800,
 													"top": 216,
-													"width": 109.82080078125,
+													"width": 129.33349609375,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -1563,7 +1681,7 @@
 														"$ref": "AAAAAAFpu5ZQHFcv5T0="
 													},
 													"edgePosition": 1,
-													"text": "5 : izlistajPodatke()"
+													"text": "5 : dostaviMiPodatke()"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -1576,7 +1694,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 854,
+													"left": 864,
 													"top": 201,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -1597,7 +1715,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 854,
+													"left": 864,
 													"top": 236,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -1617,7 +1735,7 @@
 														"$ref": "AAAAAAFpu5ZQHFcuWAs="
 													},
 													"font": "Arial;13;0",
-													"left": 914,
+													"left": 934,
 													"top": 232,
 													"width": 14,
 													"height": 57
@@ -1630,7 +1748,7 @@
 											"tail": {
 												"$ref": "AAAAAAFpu4CUilasmmQ="
 											},
-											"points": "795:232;914:232",
+											"points": "795:232;934:232",
 											"nameLabel": {
 												"$ref": "AAAAAAFpu5ZQHFcwWHc="
 											},
@@ -1664,7 +1782,7 @@
 														"$ref": "AAAAAAFpu5cB61dIUS8="
 													},
 													"font": "Arial;13;0",
-													"left": 825,
+													"left": 835,
 													"top": 289,
 													"width": 56.37353515625,
 													"height": 13,
@@ -1687,7 +1805,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 853,
+													"left": 863,
 													"top": 304,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -1708,7 +1826,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 854,
+													"left": 864,
 													"top": 269,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -1742,7 +1860,7 @@
 											"tail": {
 												"$ref": "AAAAAAFpu5QrAFcVVq8="
 											},
-											"points": "914:285;795:285",
+											"points": "934:285;795:285",
 											"nameLabel": {
 												"$ref": "AAAAAAFpu5cB61dK4Pw="
 											},
@@ -2245,7 +2363,7 @@
 														"$ref": "AAAAAAFpu6EswVfcNpM="
 													},
 													"font": "Arial;13;0",
-													"left": 615,
+													"left": 619,
 													"top": 581,
 													"width": 129.35888671875,
 													"height": 13,
@@ -2268,7 +2386,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 679,
+													"left": 683,
 													"top": 596,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -2289,7 +2407,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 680,
+													"left": 684,
 													"top": 561,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -2323,7 +2441,7 @@
 											"tail": {
 												"$ref": "AAAAAAFpu4CUilasmmQ="
 											},
-											"points": "782:577;579:577",
+											"points": "789:577;579:577",
 											"nameLabel": {
 												"$ref": "AAAAAAFpu6Eswlfemdc="
 											},
@@ -2815,7 +2933,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Identifikacija",
+					"name": "EvidencijaRezervacija",
 					"stereotype": {
 						"$ref": "AAAAAAFpu30VJlTwrN8="
 					},
@@ -2826,7 +2944,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpu30ZxFX2Wnk="
 							},
-							"name": "izlistajPodatke"
+							"name": "dostaviMiPodatke"
 						}
 					]
 				},
