@@ -63,7 +63,7 @@
 											"$ref": "AAAAAAFpT2AAGxqe/Ww="
 										},
 										{
-											"$ref": "AAAAAAFpT2JV0xq5n2w="
+											"$ref": "AAAAAAFpogCh5FwDlXc="
 										}
 									],
 									"font": "Arial;13;0",
@@ -540,205 +540,6 @@
 									},
 									"propertyLabel": {
 										"$ref": "AAAAAAFpUgbMAqczwaU="
-									}
-								},
-								{
-									"_type": "UMLDataStoreNodeView",
-									"_id": "AAAAAAFpT2JV0xq5n2w=",
-									"_parent": {
-										"$ref": "AAAAAAFpT1y8exo06WM="
-									},
-									"model": {
-										"$ref": "AAAAAAFpT2JV0hq3NWg="
-									},
-									"subViews": [
-										{
-											"_type": "UMLNameCompartmentView",
-											"_id": "AAAAAAFpT2JV0xq6URE=",
-											"_parent": {
-												"$ref": "AAAAAAFpT2JV0xq5n2w="
-											},
-											"model": {
-												"$ref": "AAAAAAFpT2JV0hq3NWg="
-											},
-											"subViews": [
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpT2JV0xq71r0=",
-													"_parent": {
-														"$ref": "AAAAAAFpT2JV0xq6URE="
-													},
-													"font": "Arial;13;0",
-													"left": 133,
-													"top": 197,
-													"width": 146.6689453125,
-													"height": 13,
-													"text": "«datastore»"
-												},
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpT2JV0xq8Mrg=",
-													"_parent": {
-														"$ref": "AAAAAAFpT2JV0xq6URE="
-													},
-													"font": "Arial;13;1",
-													"left": 133,
-													"top": 212,
-													"width": 146.6689453125,
-													"height": 13,
-													"text": "Evidencija identifikacija"
-												},
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpT2JV0xq9L5s=",
-													"_parent": {
-														"$ref": "AAAAAAFpT2JV0xq6URE="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 80,
-													"top": -56,
-													"width": 101.13720703125,
-													"height": 13,
-													"text": "(from Sistem)"
-												},
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpT2JV0xq+KNg=",
-													"_parent": {
-														"$ref": "AAAAAAFpT2JV0xq6URE="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 80,
-													"top": -56,
-													"height": 13,
-													"horizontalAlignment": 1
-												}
-											],
-											"font": "Arial;13;0",
-											"left": 128,
-											"top": 192,
-											"width": 156.6689453125,
-											"height": 38,
-											"stereotypeLabel": {
-												"$ref": "AAAAAAFpT2JV0xq71r0="
-											},
-											"nameLabel": {
-												"$ref": "AAAAAAFpT2JV0xq8Mrg="
-											},
-											"namespaceLabel": {
-												"$ref": "AAAAAAFpT2JV0xq9L5s="
-											},
-											"propertyLabel": {
-												"$ref": "AAAAAAFpT2JV0xq+KNg="
-											}
-										}
-									],
-									"containerView": {
-										"$ref": "AAAAAAFpT1zo/ho669s="
-									},
-									"font": "Arial;13;0",
-									"containerChangeable": true,
-									"left": 128,
-									"top": 192,
-									"width": 156.6689453125,
-									"height": 38,
-									"nameCompartment": {
-										"$ref": "AAAAAAFpT2JV0xq6URE="
-									}
-								},
-								{
-									"_type": "UMLObjectFlowView",
-									"_id": "AAAAAAFpUhplK6iz8Eg=",
-									"_parent": {
-										"$ref": "AAAAAAFpT1y8exo06WM="
-									},
-									"model": {
-										"$ref": "AAAAAAFpUhplKqixvIg="
-									},
-									"subViews": [
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAFpUhplK6i0eao=",
-											"_parent": {
-												"$ref": "AAAAAAFpUhplK6iz8Eg="
-											},
-											"model": {
-												"$ref": "AAAAAAFpUhplKqixvIg="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 343,
-											"top": 201,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 15,
-											"hostEdge": {
-												"$ref": "AAAAAAFpUhplK6iz8Eg="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAFpUhplK6i1NOM=",
-											"_parent": {
-												"$ref": "AAAAAAFpUhplK6iz8Eg="
-											},
-											"model": {
-												"$ref": "AAAAAAFpUhplKqixvIg="
-											},
-											"visible": null,
-											"font": "Arial;13;0",
-											"left": 358,
-											"top": 201,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 30,
-											"hostEdge": {
-												"$ref": "AAAAAAFpUhplK6iz8Eg="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAFpUhplK6i2N2c=",
-											"_parent": {
-												"$ref": "AAAAAAFpUhplK6iz8Eg="
-											},
-											"model": {
-												"$ref": "AAAAAAFpUhplKqixvIg="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 313,
-											"top": 202,
-											"height": 13,
-											"alpha": -1.5707963267948966,
-											"distance": 15,
-											"hostEdge": {
-												"$ref": "AAAAAAFpUhplK6iz8Eg="
-											},
-											"edgePosition": 1
-										}
-									],
-									"font": "Arial;13;0",
-									"head": {
-										"$ref": "AAAAAAFpT18SMxpwEec="
-									},
-									"tail": {
-										"$ref": "AAAAAAFpT2JV0xq5n2w="
-									},
-									"points": "284:208;328:208;328:312",
-									"showVisibility": true,
-									"nameLabel": {
-										"$ref": "AAAAAAFpUhplK6i0eao="
-									},
-									"stereotypeLabel": {
-										"$ref": "AAAAAAFpUhplK6i1NOM="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAFpUhplK6i2N2c="
 									}
 								},
 								{
@@ -2255,109 +2056,6 @@
 									}
 								},
 								{
-									"_type": "UMLDataStoreNodeView",
-									"_id": "AAAAAAFpogCh5FwDlXc=",
-									"_parent": {
-										"$ref": "AAAAAAFpT1y8exo06WM="
-									},
-									"model": {
-										"$ref": "AAAAAAFpogCh5FwB+Ys="
-									},
-									"subViews": [
-										{
-											"_type": "UMLNameCompartmentView",
-											"_id": "AAAAAAFpogCh5FwEI9c=",
-											"_parent": {
-												"$ref": "AAAAAAFpogCh5FwDlXc="
-											},
-											"model": {
-												"$ref": "AAAAAAFpogCh5FwB+Ys="
-											},
-											"subViews": [
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpogCh5FwFf/Y=",
-													"_parent": {
-														"$ref": "AAAAAAFpogCh5FwEI9c="
-													},
-													"font": "Arial;13;0",
-													"left": 413,
-													"top": 197,
-													"width": 135.1416015625,
-													"height": 13,
-													"text": "«datastore»"
-												},
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpogCh5VwGNAk=",
-													"_parent": {
-														"$ref": "AAAAAAFpogCh5FwEI9c="
-													},
-													"font": "Arial;13;1",
-													"left": 413,
-													"top": 212,
-													"width": 135.1416015625,
-													"height": 13,
-													"text": "Evidencija rezervacija"
-												},
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpogCh5VwHs+8=",
-													"_parent": {
-														"$ref": "AAAAAAFpogCh5FwEI9c="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": -32,
-													"top": -16,
-													"width": 86.6708984375,
-													"height": 13,
-													"text": "(from Activity1)"
-												},
-												{
-													"_type": "LabelView",
-													"_id": "AAAAAAFpogCh5VwIQOQ=",
-													"_parent": {
-														"$ref": "AAAAAAFpogCh5FwEI9c="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": -32,
-													"top": -16,
-													"height": 13,
-													"horizontalAlignment": 1
-												}
-											],
-											"font": "Arial;13;0",
-											"left": 408,
-											"top": 192,
-											"width": 145.1416015625,
-											"height": 38,
-											"stereotypeLabel": {
-												"$ref": "AAAAAAFpogCh5FwFf/Y="
-											},
-											"nameLabel": {
-												"$ref": "AAAAAAFpogCh5VwGNAk="
-											},
-											"namespaceLabel": {
-												"$ref": "AAAAAAFpogCh5VwHs+8="
-											},
-											"propertyLabel": {
-												"$ref": "AAAAAAFpogCh5VwIQOQ="
-											}
-										}
-									],
-									"font": "Arial;13;0",
-									"containerChangeable": true,
-									"left": 408,
-									"top": 192,
-									"width": 145.1416015625,
-									"height": 38,
-									"nameCompartment": {
-										"$ref": "AAAAAAFpogCh5FwEI9c="
-									}
-								},
-								{
 									"_type": "UMLObjectFlowView",
 									"_id": "AAAAAAFpogDnu1wdb74=",
 									"_parent": {
@@ -2378,8 +2076,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 375,
-											"top": 201,
+											"left": 358,
+											"top": 255,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 15,
@@ -2399,8 +2097,8 @@
 											},
 											"visible": null,
 											"font": "Arial;13;0",
-											"left": 390,
-											"top": 201,
+											"left": 373,
+											"top": 255,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 30,
@@ -2420,8 +2118,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 345,
-											"top": 202,
+											"left": 329,
+											"top": 256,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 15,
@@ -2438,7 +2136,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpogCh5FwDlXc="
 									},
-									"points": "408:208;360:208;360:312",
+									"points": "344:213;344:312",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAFpogDnu1wemRo="
@@ -2542,6 +2240,112 @@
 									"propertyLabel": {
 										"$ref": "AAAAAAFpogGCxVw46uM="
 									}
+								},
+								{
+									"_type": "UMLDataStoreNodeView",
+									"_id": "AAAAAAFpogCh5FwDlXc=",
+									"_parent": {
+										"$ref": "AAAAAAFpT1y8exo06WM="
+									},
+									"model": {
+										"$ref": "AAAAAAFpogCh5FwB+Ys="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAFpogCh5FwEI9c=",
+											"_parent": {
+												"$ref": "AAAAAAFpogCh5FwDlXc="
+											},
+											"model": {
+												"$ref": "AAAAAAFpogCh5FwB+Ys="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFpogCh5FwFf/Y=",
+													"_parent": {
+														"$ref": "AAAAAAFpogCh5FwEI9c="
+													},
+													"font": "Arial;13;0",
+													"left": 277,
+													"top": 181,
+													"width": 135.1416015625,
+													"height": 13,
+													"text": "«datastore»"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFpogCh5VwGNAk=",
+													"_parent": {
+														"$ref": "AAAAAAFpogCh5FwEI9c="
+													},
+													"font": "Arial;13;1",
+													"left": 277,
+													"top": 196,
+													"width": 135.1416015625,
+													"height": 13,
+													"text": "Evidencija rezervacija"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFpogCh5VwHs+8=",
+													"_parent": {
+														"$ref": "AAAAAAFpogCh5FwEI9c="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -432,
+													"top": -56,
+													"width": 88,
+													"height": 13,
+													"text": "(from Sistem)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFpogCh5VwIQOQ=",
+													"_parent": {
+														"$ref": "AAAAAAFpogCh5FwEI9c="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -432,
+													"top": -56,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 272,
+											"top": 176,
+											"width": 145.1416015625,
+											"height": 38,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAFpogCh5FwFf/Y="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAFpogCh5VwGNAk="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAFpogCh5VwHs+8="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAFpogCh5VwIQOQ="
+											}
+										}
+									],
+									"containerView": {
+										"$ref": "AAAAAAFpT1zo/ho669s="
+									},
+									"font": "Arial;13;0",
+									"containerChangeable": true,
+									"left": 272,
+									"top": 176,
+									"width": 145.1416015625,
+									"height": 38,
+									"nameCompartment": {
+										"$ref": "AAAAAAFpogCh5FwEI9c="
+									}
 								}
 							]
 						}
@@ -2580,15 +2384,6 @@
 							},
 							"name": "Obavještenje (kod validan) [novi]",
 							"ordering": "FIFO"
-						},
-						{
-							"_type": "UMLDataStoreNode",
-							"_id": "AAAAAAFpogCh5FwB+Ys=",
-							"_parent": {
-								"$ref": "AAAAAAFpT1y8ehozvBs="
-							},
-							"name": "Evidencija rezervacija",
-							"ordering": "FIFO"
 						}
 					],
 					"edges": [
@@ -2618,19 +2413,6 @@
 								"$ref": "AAAAAAFpT2AAGxqcaG0="
 							},
 							"guard": "kod validan"
-						},
-						{
-							"_type": "UMLObjectFlow",
-							"_id": "AAAAAAFpUhplKqixvIg=",
-							"_parent": {
-								"$ref": "AAAAAAFpT1y8ehozvBs="
-							},
-							"source": {
-								"$ref": "AAAAAAFpT2JV0hq3NWg="
-							},
-							"target": {
-								"$ref": "AAAAAAFpT18SMxpuwqs="
-							}
 						},
 						{
 							"_type": "UMLControlFlow",
@@ -2812,11 +2594,11 @@
 								},
 								{
 									"_type": "UMLDataStoreNode",
-									"_id": "AAAAAAFpT2JV0hq3NWg=",
+									"_id": "AAAAAAFpogCh5FwB+Ys=",
 									"_parent": {
 										"$ref": "AAAAAAFpT1zo/Ro47Ts="
 									},
-									"name": "Evidencija identifikacija",
+									"name": "Evidencija rezervacija",
 									"ordering": "FIFO"
 								}
 							]
