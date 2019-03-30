@@ -1798,7 +1798,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"width": 86.6708984375,
+													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
 												},
@@ -1896,7 +1896,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"width": 86.6708984375,
+													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
 												},
