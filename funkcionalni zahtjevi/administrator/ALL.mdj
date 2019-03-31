@@ -10383,9 +10383,6 @@
 													"$ref": "AAAAAAFppIVIDBXTIe8="
 												},
 												{
-													"$ref": "AAAAAAFppIdBHhYMTJY="
-												},
-												{
 													"$ref": "AAAAAAFppIyNhxcHuTk="
 												}
 											],
@@ -10849,7 +10846,7 @@
 															"top": 527,
 															"width": 127,
 															"height": 26,
-															"text": "Dodavanje odjeljka u evidenciju",
+															"text": "Dodavanje odjeljka u salu",
 															"wordWrap": true
 														},
 														{
@@ -10912,205 +10909,6 @@
 												"$ref": "AAAAAAFppIVIDBXUJH0="
 											},
 											"wordWrap": true
-										},
-										{
-											"_type": "UMLObjectFlowView",
-											"_id": "AAAAAAFppIdB8RYla2k=",
-											"_parent": {
-												"$ref": "AAAAAAFppHvcce1Q7xE="
-											},
-											"model": {
-												"$ref": "AAAAAAFppIdB8BYj+a0="
-											},
-											"subViews": [
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAFppIdB8RYm6AM=",
-													"_parent": {
-														"$ref": "AAAAAAFppIdB8RYla2k="
-													},
-													"model": {
-														"$ref": "AAAAAAFppIdB8BYj+a0="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 799,
-													"top": 495,
-													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 15,
-													"hostEdge": {
-														"$ref": "AAAAAAFppIdB8RYla2k="
-													},
-													"edgePosition": 1
-												},
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAFppIdB8RYnHSU=",
-													"_parent": {
-														"$ref": "AAAAAAFppIdB8RYla2k="
-													},
-													"model": {
-														"$ref": "AAAAAAFppIdB8BYj+a0="
-													},
-													"visible": null,
-													"font": "Arial;13;0",
-													"left": 784,
-													"top": 495,
-													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 30,
-													"hostEdge": {
-														"$ref": "AAAAAAFppIdB8RYla2k="
-													},
-													"edgePosition": 1
-												},
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAFppIdB8RYoKz8=",
-													"_parent": {
-														"$ref": "AAAAAAFppIdB8RYla2k="
-													},
-													"model": {
-														"$ref": "AAAAAAFppIdB8BYj+a0="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 828,
-													"top": 496,
-													"height": 13,
-													"alpha": -1.5707963267948966,
-													"distance": 15,
-													"hostEdge": {
-														"$ref": "AAAAAAFppIdB8RYla2k="
-													},
-													"edgePosition": 1
-												}
-											],
-											"font": "Arial;13;0",
-											"head": {
-												"$ref": "AAAAAAFppIdBHhYMTJY="
-											},
-											"tail": {
-												"$ref": "AAAAAAFppIVIDBXTIe8="
-											},
-											"points": "814:520;814:485",
-											"showVisibility": true,
-											"nameLabel": {
-												"$ref": "AAAAAAFppIdB8RYm6AM="
-											},
-											"stereotypeLabel": {
-												"$ref": "AAAAAAFppIdB8RYnHSU="
-											},
-											"propertyLabel": {
-												"$ref": "AAAAAAFppIdB8RYoKz8="
-											}
-										},
-										{
-											"_type": "UMLObjectNodeView",
-											"_id": "AAAAAAFppIdBHhYMTJY=",
-											"_parent": {
-												"$ref": "AAAAAAFppHvcce1Q7xE="
-											},
-											"model": {
-												"$ref": "AAAAAAFppIdBHhYKavo="
-											},
-											"subViews": [
-												{
-													"_type": "UMLNameCompartmentView",
-													"_id": "AAAAAAFppIdBHxYNxn8=",
-													"_parent": {
-														"$ref": "AAAAAAFppIdBHhYMTJY="
-													},
-													"model": {
-														"$ref": "AAAAAAFppIdBHhYKavo="
-													},
-													"subViews": [
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAFppIdBHxYOm3A=",
-															"_parent": {
-																"$ref": "AAAAAAFppIdBHxYNxn8="
-															},
-															"font": "Arial;13;0",
-															"left": 752,
-															"top": 453,
-															"width": 123.55712890625,
-															"height": 13,
-															"text": "«datastore»"
-														},
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAFppIdBHxYPo70=",
-															"_parent": {
-																"$ref": "AAAAAAFppIdBHxYNxn8="
-															},
-															"font": "Arial;13;1",
-															"left": 752,
-															"top": 468,
-															"width": 123.55712890625,
-															"height": 13,
-															"text": "Evidencija odjeljaka"
-														},
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAFppIdBHxYQXBU=",
-															"_parent": {
-																"$ref": "AAAAAAFppIdBHxYNxn8="
-															},
-															"visible": false,
-															"font": "Arial;13;0",
-															"left": 8,
-															"top": -361,
-															"width": 86.6708984375,
-															"height": 13,
-															"text": "(from Sistem)"
-														},
-														{
-															"_type": "LabelView",
-															"_id": "AAAAAAFppIdBHxYR9Zg=",
-															"_parent": {
-																"$ref": "AAAAAAFppIdBHxYNxn8="
-															},
-															"visible": false,
-															"font": "Arial;13;0",
-															"left": 8,
-															"top": -361,
-															"height": 13,
-															"horizontalAlignment": 1
-														}
-													],
-													"font": "Arial;13;0",
-													"left": 747,
-													"top": 448,
-													"width": 133.55712890625,
-													"height": 38,
-													"stereotypeLabel": {
-														"$ref": "AAAAAAFppIdBHxYOm3A="
-													},
-													"nameLabel": {
-														"$ref": "AAAAAAFppIdBHxYPo70="
-													},
-													"namespaceLabel": {
-														"$ref": "AAAAAAFppIdBHxYQXBU="
-													},
-													"propertyLabel": {
-														"$ref": "AAAAAAFppIdBHxYR9Zg="
-													}
-												}
-											],
-											"containerView": {
-												"$ref": "AAAAAAFppIOqiBV1Xec="
-											},
-											"font": "Arial;13;0",
-											"containerChangeable": true,
-											"left": 747,
-											"top": 448,
-											"width": 133.55712890625,
-											"height": 38,
-											"nameCompartment": {
-												"$ref": "AAAAAAFppIdBHxYNxn8="
-											}
 										},
 										{
 											"_type": "UMLActionView",
@@ -12926,19 +12724,6 @@
 									}
 								},
 								{
-									"_type": "UMLObjectFlow",
-									"_id": "AAAAAAFppIdB8BYj+a0=",
-									"_parent": {
-										"$ref": "AAAAAAFppHvcce1PrAY="
-									},
-									"source": {
-										"$ref": "AAAAAAFppIVIChXRzU0="
-									},
-									"target": {
-										"$ref": "AAAAAAFppIdBHhYKavo="
-									}
-								},
-								{
 									"_type": "UMLControlFlow",
 									"_id": "AAAAAAFppIfSwRZSx54=",
 									"_parent": {
@@ -13107,17 +12892,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFppIOqiBVzm1w="
 											},
-											"name": "Dodavanje odjeljka u evidenciju"
-										},
-										{
-											"_type": "UMLObjectNode",
-											"_id": "AAAAAAFppIdBHhYKavo=",
-											"_parent": {
-												"$ref": "AAAAAAFppIOqiBVzm1w="
-											},
-											"name": "Evidencija odjeljaka",
-											"stereotype": "datastore",
-											"ordering": "FIFO"
+											"name": "Dodavanje odjeljka u salu"
 										},
 										{
 											"_type": "UMLObjectNode",
@@ -39599,7 +39374,7 @@
 															"top": 751,
 															"width": 130.05078125,
 															"height": 13,
-															"text": "Ažuriranje evidencije"
+															"text": "Ažuriranje sale"
 														},
 														{
 															"_type": "LabelView",
@@ -39798,7 +39573,7 @@
 															"top": 700,
 															"width": 123.55712890625,
 															"height": 13,
-															"text": "Evidencija odjeljaka"
+															"text": "Evidencija sala"
 														},
 														{
 															"_type": "LabelView",
@@ -40524,7 +40299,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFpqQ9emY94yck="
 											},
-											"name": "Ažuriranje evidencije"
+											"name": "Ažuriranje sale"
 										},
 										{
 											"_type": "UMLObjectNode",
@@ -40532,7 +40307,7 @@
 											"_parent": {
 												"$ref": "AAAAAAFpqQ9emY94yck="
 											},
-											"name": "Evidencija odjeljaka",
+											"name": "Evidencija sala",
 											"stereotype": "datastore",
 											"ordering": "FIFO"
 										}
