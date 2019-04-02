@@ -96,7 +96,7 @@
 											"top": 28,
 											"width": 272,
 											"height": 13,
-											"text": "Neregistrovani korisnik",
+											"text": "Sistem",
 											"verticalAlignment": 3
 										}
 									],
@@ -391,7 +391,7 @@
 													"top": -24,
 													"width": 169.76171875,
 													"height": 13,
-													"text": "(from Neregistrovani korisnik)"
+													"text": "(from Sistem)"
 												},
 												{
 													"_type": "LabelView",
@@ -1112,7 +1112,7 @@
 													"top": 504,
 													"width": 169.76171875,
 													"height": 13,
-													"text": "(from Neregistrovani korisnik)"
+													"text": "(from Sistem)"
 												},
 												{
 													"_type": "LabelView",
@@ -1314,7 +1314,7 @@
 													"top": 1328,
 													"width": 169.76171875,
 													"height": 13,
-													"text": "(from Neregistrovani korisnik)"
+													"text": "(from Sistem)"
 												},
 												{
 													"_type": "LabelView",
@@ -2386,7 +2386,7 @@
 													"font": "Arial;13;0",
 													"left": -128,
 													"top": 96,
-													"width": 86.6708984375,
+													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
 												},
@@ -2504,7 +2504,7 @@
 													"font": "Arial;13;0",
 													"left": -48,
 													"top": -16,
-													"width": 86.6708984375,
+													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
 												},
@@ -3173,7 +3173,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpWebEaLc6sws="
 							},
-							"name": "Neregistrovani korisnik",
+							"name": "Sistem",
 							"nodes": [
 								{
 									"_type": "UMLAction",
