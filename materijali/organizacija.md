@@ -51,3 +51,9 @@
 - Objekti
     - Zahtjev (novi) na početku toka i Poruke (nova) na kraju toka
     - Slanje obavještenja - obavještenje kao objekat - prijem obavještenja
+
+## Terminologija
+ - sve što čuvamo je objekat - kreirati entity object
+ - koristiti terminologiju kao i iz dijag aktivnosti (evidencija identifikacija)
+ - ne treba poseban kontroler za bazu
+ 
