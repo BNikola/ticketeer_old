@@ -3902,11 +3902,11 @@
 											},
 											"font": "Arial;13;0",
 											"left": 775,
-											"top": 840,
+											"top": 832,
 											"width": 138.74072265625,
 											"height": 13,
-											"alpha": 2.310073108653331,
-											"distance": 92.02173656261873,
+											"alpha": 2.3706859634516277,
+											"distance": 97.59098319004681,
 											"hostEdge": {
 												"$ref": "AAAAAAFppbgX9/McYWQ="
 											},
@@ -4124,7 +4124,7 @@
 													"font": "Arial;13;0",
 													"left": -128,
 													"top": -32,
-													"width": 86.6708984375,
+													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
 												},
@@ -4225,7 +4225,7 @@
 													"visible": false,
 													"font": "Arial;13;0",
 													"left": -128,
-													"width": 86.6708984375,
+													"width": 88,
 													"height": 13,
 													"text": "(from Activity1)"
 												},
