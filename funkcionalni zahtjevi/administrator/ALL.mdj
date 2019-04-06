@@ -56253,7 +56253,7 @@
 															"visible": false,
 															"font": "Arial;13;0",
 															"left": -2256,
-															"top": -288,
+															"top": -240,
 															"height": 13
 														},
 														{
@@ -56264,7 +56264,7 @@
 															},
 															"font": "Arial;13;1",
 															"left": 159,
-															"top": 607,
+															"top": 631,
 															"width": 129.32080078125,
 															"height": 13,
 															"text": "Potvrđivanje izmjena"
@@ -56278,7 +56278,7 @@
 															"visible": false,
 															"font": "Arial;13;0",
 															"left": -2256,
-															"top": -288,
+															"top": -240,
 															"width": 114.84814453125,
 															"height": 13,
 															"text": "(from Administrator)"
@@ -56292,14 +56292,14 @@
 															"visible": false,
 															"font": "Arial;13;0",
 															"left": -2256,
-															"top": -288,
+															"top": -240,
 															"height": 13,
 															"horizontalAlignment": 1
 														}
 													],
 													"font": "Arial;13;0",
 													"left": 154,
-													"top": 600,
+													"top": 624,
 													"width": 139.32080078125,
 													"height": 25,
 													"stereotypeLabel": {
@@ -56322,7 +56322,7 @@
 											"font": "Arial;13;0",
 											"containerChangeable": true,
 											"left": 154,
-											"top": 600,
+											"top": 624,
 											"width": 139.32080078125,
 											"height": 41,
 											"nameCompartment": {
@@ -58033,7 +58033,7 @@
 											"tail": {
 												"$ref": "AAAAAAFpqW502PwgNaE="
 											},
-											"points": "462:560;224:560;224:600",
+											"points": "462:560;224:560;224:624",
 											"showVisibility": true,
 											"nameLabel": {
 												"$ref": "AAAAAAFpqXRY1P489M0="
@@ -58126,7 +58126,7 @@
 											"tail": {
 												"$ref": "AAAAAAFpqW+gavyolTs="
 											},
-											"points": "224:640;224:752;570:752",
+											"points": "224:664;224:752;570:752",
 											"showVisibility": true,
 											"nameLabel": {
 												"$ref": "AAAAAAFpqXRiyv5Npwg="

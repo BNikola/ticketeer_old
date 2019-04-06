@@ -56,4 +56,8 @@
  - sve što čuvamo je objekat - kreirati entity object
  - koristiti terminologiju kao i iz dijag aktivnosti (evidencija identifikacija)
  - ne treba poseban kontroler za bazu
- 
+
+
+## Dijagram klasa
+- administrator i radnik odvojene klase
+- sve iz naloga - u registrovani korisnik (skloniti privileg. kor. - staviti status)
