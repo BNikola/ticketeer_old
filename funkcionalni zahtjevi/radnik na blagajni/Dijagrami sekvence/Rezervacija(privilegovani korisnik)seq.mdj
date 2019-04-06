@@ -300,6 +300,22 @@
 											"height": 13,
 											"text": "+prikažiPoruku()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFp8fkuuG+EAe0=",
+											"_parent": {
+												"$ref": "AAAAAAFpvzAuAuetXuE="
+											},
+											"model": {
+												"$ref": "AAAAAAFp5K4yFBvFAos="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 94.29443359375,
+											"height": 13,
+											"text": "+pošaljiPoruku()",
+											"horizontalAlignment": 0
 										}
 									],
 									"visible": false,
@@ -831,6 +847,54 @@
 											"width": 192.5625,
 											"height": 13,
 											"text": "+pošaljiPorukuSaIdentifikacijom()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFp8fku4W+HnU0=",
+											"_parent": {
+												"$ref": "AAAAAAFpvzA3OOf/EAo="
+											},
+											"model": {
+												"$ref": "AAAAAAFp5K7t3hvhlyY="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 144.87255859375,
+											"height": 13,
+											"text": "+generišiPorukuIPošalji()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFp8fku4m+KAFI=",
+											"_parent": {
+												"$ref": "AAAAAAFpvzA3OOf/EAo="
+											},
+											"model": {
+												"$ref": "AAAAAAFp5K/YrRv925s="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 92.83447265625,
+											"height": 13,
+											"text": "+kreirajPoruku()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFp8fku5G+NOG4=",
+											"_parent": {
+												"$ref": "AAAAAAFpvzA3OOf/EAo="
+											},
+											"model": {
+												"$ref": "AAAAAAFp5LDYzhwfJNg="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 98.6298828125,
+											"height": 13,
+											"text": "+dostaviPoruku()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1766,7 +1830,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpvzAuAeeleFw="
 							},
-							"name": "prikažiSalu"
+							"name": "prikažiSjedištaUSali"
 						},
 						{
 							"_type": "UMLOperation",
@@ -4519,9 +4583,9 @@
 														"$ref": "AAAAAAFpv1kkOuricVQ="
 													},
 													"font": "Arial;13;0",
-													"left": 702,
+													"left": 652,
 													"top": 692,
-													"width": 63.603515625,
+													"width": 162.576171875,
 													"height": 13,
 													"alpha": 1.5707963267948966,
 													"distance": 10,
@@ -4529,7 +4593,7 @@
 														"$ref": "AAAAAAFpv1kkOurj7Rs="
 													},
 													"edgePosition": 1,
-													"text": "18 : Sala"
+													"text": "18 : podaciOsjedištimaUSali"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -4631,9 +4695,9 @@
 														"$ref": "AAAAAAFpv1tjRer7UNQ="
 													},
 													"font": "Arial;13;0",
-													"left": 614,
+													"left": 588,
 													"top": 728,
-													"width": 97.5380859375,
+													"width": 148.83349609375,
 													"height": 13,
 													"alpha": 1.4981958862179676,
 													"distance": 55.14526271584895,
@@ -4641,7 +4705,7 @@
 														"$ref": "AAAAAAFpv1tjRer8mVA="
 													},
 													"edgePosition": 1,
-													"text": "19 : prikažiSalu()"
+													"text": "19 : prikažiSjedištaUSali()"
 												},
 												{
 													"_type": "EdgeLabelView",
@@ -7352,12 +7416,12 @@
 														"$ref": "AAAAAAFp5LCzFxwJXJY="
 													},
 													"font": "Arial;13;0",
-													"left": 878,
-													"top": 1571,
+													"left": 918,
+													"top": 1592,
 													"width": 116.33349609375,
 													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 10,
+													"alpha": 1.190289018648037,
+													"distance": 53.85164807134504,
 													"hostEdge": {
 														"$ref": "AAAAAAFp5LCzFxwKn0M="
 													},
@@ -7728,7 +7792,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFpvzDOD+ghMOM="
 									},
-									"name": "Sala",
+									"name": "podaciOsjedištimaUSali",
 									"source": {
 										"$ref": "AAAAAAFpv0Bn/Oh5KKQ="
 									},
