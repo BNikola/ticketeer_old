@@ -100,7 +100,7 @@
 											"font": "Arial;13;0",
 											"left": 352,
 											"top": 36,
-											"width": 297,
+											"width": 305,
 											"height": 13,
 											"text": "Sistem",
 											"verticalAlignment": 3
@@ -117,7 +117,7 @@
 									"font": "Arial;13;0",
 									"left": 352,
 									"top": 32,
-									"width": 297,
+									"width": 305,
 									"height": 737,
 									"nameLabel": {
 										"$ref": "AAAAAAFn7BX76F9Q1Hk="
