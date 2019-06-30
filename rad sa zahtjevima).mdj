@@ -5700,19 +5700,6 @@
 							}
 						},
 						{
-							"_type": "UMLNoteView",
-							"_id": "AAAAAAFrjwjZKHJNRSw=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"font": "Arial;13;0",
-							"left": 1000,
-							"top": 296,
-							"width": 281,
-							"height": 33,
-							"text": "State za zahtjeve i factory za dao"
-						},
-						{
 							"_type": "UMLAssociationView",
 							"_id": "AAAAAAFrjwlv63K24Nc=",
 							"_parent": {
